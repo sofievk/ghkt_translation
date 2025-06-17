@@ -1,0 +1,21 @@
+C:\Users\7088256\AppData\Local\Temp\ipykernel_20068\669317843.py:80: RuntimeWarning: divide by zero encountered in scalar power
+  En[i] = (kappa1 * oiln[i]**rho + kappa2 * (coal[T-1] * (1 + gZ_en)**i)**rho + kappa3 * (wind[T-1] * (1 + gZ_en)**i)**rho)**(1/rho)
+C:\Users\7088256\AppData\Local\Temp\ipykernel_20068\669317843.py:99: RuntimeWarning: divide by zero encountered in log
+  U[i] = (beta**i) * np.log(ct[i])
+C:\Users\7088256\AppData\Local\Temp\ipykernel_20068\669317843.py:107: RuntimeWarning: divide by zero encountered in log
+  Ucont = (beta**(T+n-1)) * np.log(ct[T+n-1]) * (1 / (1 - beta * (1 + gZBGP)**(1 - sigma)))
+C:\Users\7088256\AppData\Local\Temp\ipykernel_20068\669317843.py:63: RuntimeWarning: invalid value encountered in scalar power
+  (Kt1[T-2]**alpha) * ((1 - x[2*(T-1) + T-1] - x[2*(T-1) + 2*T - 1]) * N)**(1 - alpha - v) * \
+C:\Users\7088256\AppData\Local\Temp\ipykernel_20068\669317843.py:82: RuntimeWarning: invalid value encountered in scalar power
+  (Ktn[i]**alpha) * ((1 - x[2*(T-1) + 2*T - 1] - x[2*(T-1) + T - 1]) * N)**(1 - alpha - v) * \
+C:\Users\7088256\AppData\Local\Temp\ipykernel_20068\1962653662.py:79: RuntimeWarning: invalid value encountered in scalar power
+  (Kt1[i - 1]**alpha) * ((1 - x[2*(T-1) + T - 1] - x[2*(T-1) + 2*T - 1]) * N)**(1 - alpha - v) * \
+C:\Users\7088256\AppData\Local\anaconda3\envs\chazel_model\Lib\site-packages\scipy\optimize\_slsqp_py.py:435: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  fx = wrapped_fun(x)
+Singular matrix E in LSQ subproblem    (Exit mode 5)
+            Current function value: 10003.030946057868
+            Iterations: 98
+            Function evaluations: 11914
+            Gradient evaluations: 98
+Optimization success: False
+Optimal objective value: 10003.030946057868
